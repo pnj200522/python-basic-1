@@ -1,0 +1,16 @@
+함수 is_evenly_divisible은 number라는 정수값을 파라미터로 받고, 그 값이 짝수인지 홀수인지 판단해 줍니다.
+1. 짝수인 경우, 즉 number가 2로 나누어 떨어지는 경우에는 True를 리턴합니다.
+2. 홀수인 경우, 즉 number가 2로 나누어 떨어지지 않는 경우에는 False를 리턴합니다.
+
+함수 안에는 print문 대신 return문을 사용하셔야 합니다.
+
+def is_evenly_divisible(n) :
+    if n % 2 == 0 :
+         return True
+    else :
+         return False
+
+---------------------------------------------------------------------
+
+/ 나누기
+% 나머지
